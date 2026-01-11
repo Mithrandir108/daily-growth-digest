@@ -30,12 +30,29 @@ RSS_FEEDS = {
     "b2b": [
         "https://www.saastr.com/feed/",
     ],
+    "esg": [
+        "https://www.esgtoday.com/feed/",
+    ],
+    "fintech": [
+        "https://thefinancialbrand.com/news/fintech-banking/feed/",
+        "https://thefinancialbrand.com/news/banking-technology/feed/",
+    ],
+    "banking": [
+        "https://www.americanbanker.com/feed",
+        "https://www.bankingdive.com/feeds/news/",
+        "https://thefinancialbrand.com/news/bank-marketing/feed/",
+        "https://thefinancialbrand.com/news/digital-transformation-banking/feed/",
+        "https://thefinancialbrand.com/news/digital-marketing-banking/feed/",
+    ],
 }
 
 CATEGORIES = {
     "ai": {"icon": "🤖", "title": "AI & Automation"},
     "growth": {"icon": "📈", "title": "Growth Marketing"},
-    "b2b": {"icon": "💼", "title": "B2B SaaS"},
+    "b2b": {"icon": "🎯", "title": "B2B SaaS"},
+    "esg": {"icon": "🌱", "title": "ESG & Sustainability"},
+    "fintech": {"icon": "💳", "title": "FinTech Innovation"},
+    "banking": {"icon": "🏦", "title": "Banking & Financial Services"},
 }
 
 HTML_TEMPLATE = """<!DOCTYPE html>
