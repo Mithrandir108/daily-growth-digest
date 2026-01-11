@@ -183,7 +183,7 @@ def setup_api_key():
     return api_key
 
 
-def fetch_rss_articles(hours_ago=24):
+def fetch_rss_articles(hours_ago=72):
     """Fetch articles from RSS feeds"""
     articles = []
     cutoff_time = datetime.now() - timedelta(hours=hours_ago)
